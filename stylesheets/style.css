@@ -1642,7 +1642,3 @@ a img.aligncenter {
 img {
 	max-width: 100%;
 }
-
-#nav li:last-child {
-	font-weight: bold;
-}
