@@ -1595,45 +1595,73 @@ a img.aligncenter {
 	
 	
 .signup {
-	color: #222;
+	
+
 	margin: 0 auto;
 	text-align: center;
-	background: #ddd;
-	background: url("../images/bottom_shadow.png") bottom no-repeat;
-	border: 1px solid #ddd;
-	box-shadow: 2px 2px #bbb;
-	width: 60%;
-	border-radius: 5px;
+
+
 	padding: 0;
+
+
+
+	width: 500px;
+
+	background:#4a5775;
+
+	
+	
+	/* CSS3 Styling */
+	  background:-moz-linear-gradient(top, #602029, #6F252E);
+	  background:-webkit-gradient(linear, left top, left bottom, from(#602029), to(#6F252E));
+	  -moz-border-radius:5px;
+	  -webkit-border-radius:5px;
+	  border-radius:5px;
+	  -moz-box-shadow:0px 0px 5px #000;
+	  -webkit-box-shadow:0px 0px 5px #000;
+	  box-shadow:0px 0px 5px #000;
+	  /* Text Styling */
+	  font-family:'Trebuchet MS', Georgia, 'Times New Roman', serif;
+
+	  font-size:30px;
+	  text-shadow:0px 0px 5px rgba(0, 0, 0, 0.75);
+	}
 
 }
 
 .signup a {
 		padding: 0%;
+		color: #ccc;
+
 }
 
 .signup a, .signup h4 {
-
-	color: #333;
+	color: #ccc;
 	font-weight: normal;
-	font-size: 1.3em;
+	font-size: 0.9em;
 	text-decoration: none;
 }
 
 .signup h4, .signup h5 {
 	padding: 2%;
+		  font-family:'Trebuchet MS', Georgia, 'Times New Roman', serif;
 }
 
 .signup h5 {
-	color: #666;
-	font-size: 0.9em;
-	padding-top: 1%;
+	color: #aaa;
+	font-size: 0.7em;
+	padding-top: 0%;
+	
 	
 }
 
 .signup:hover {
-	opacity: .6;
+	background: #2E0F15;
 }
+
+
+
+
 
 #contact #contact_form .email {
 	float: left;
