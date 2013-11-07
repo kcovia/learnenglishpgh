@@ -1138,7 +1138,6 @@ div#contact {}
 	}
 	div#contact .notice {
 		font-weight: bold;
-		font-size: 13px;
 		margin-bottom: 15px;
 	}
 	div#contact .notice.error { color: #D94848; }
@@ -1589,56 +1588,34 @@ a img.aligncenter {
 		color: #666;
     padding:5px 4px 5px;
 }
-.gallery-caption { margin-left: 0; }
-.bypostauthor {}
-.sticky {}
-	
-	
-.signup {
-	color: #222;
-	margin: 0 auto;
-	text-align: center;
-	background: #ddd;
-	background: url("../images/bottom_shadow.png") bottom no-repeat;
-	border: 1px solid #ddd;
-	box-shadow: 2px 2px #bbb;
-	width: 60%;
-	border-radius: 5px;
-	padding: 0;
 
-}
 
-.signup a {
-		padding: 0%;
-}
 
-.signup a, .signup h4 {
 
-	color: #333;
-	font-weight: normal;
-	font-size: 1.3em;
-	text-decoration: none;
-}
 
-.signup h4, .signup h5 {
-	padding: 2%;
-}
-
-.signup h5 {
-	color: #666;
-	font-size: 0.9em;
-	padding-top: 1%;
-	
-}
-
-.signup:hover {
-	opacity: .6;
-}
-
-#contact #contact_form .email {
-	float: left;
-}
 
 img {
 	max-width: 100%;
 }
+
+
+
+label {
+	display: block;
+	margin: 12px 0 -12px 0;
+	
+
+}
+
+input, textarea {
+		width:300px;
+		height:25px;
+		background:#efefef;
+		border:1px solid #dedede;
+		padding:10px;
+		font-size:0.9em;
+		color:#111;
+}
+
+#submit {height: 40px}
+
