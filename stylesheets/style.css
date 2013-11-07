@@ -1138,7 +1138,6 @@ div#contact {}
 	}
 	div#contact .notice {
 		font-weight: bold;
-		font-size: 13px;
 		margin-bottom: 15px;
 	}
 	div#contact .notice.error { color: #D94848; }
@@ -1589,40 +1588,34 @@ a img.aligncenter {
 		color: #666;
     padding:5px 4px 5px;
 }
-.gallery-caption { margin-left: 0; }
-.bypostauthor {}
-.sticky {}
-	
-	
-.signup {
-	padding: 10px 12px;
-	margin-bottom: 0;
-	font-size: 30px;
-	line-height: 20px;
-	color: #333333;
-	text-align: center;
-	text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75);
-	vertical-align: middle;
-	cursor: pointer;
-	background-color: #efefef;
-	border: 1px solid #ddd;
-	width: 40%;
-	margin: 0 auto;
-
-}
-
-.signup a {
-		text-decoration: none;
-}
 
 
 
 
 
-#contact #contact_form .email {
-	float: left;
-}
 
 img {
 	max-width: 100%;
 }
+
+
+
+label {
+	display: block;
+	margin: 12px 0 -12px 0;
+	
+
+}
+
+input, textarea {
+		width:300px;
+		height:25px;
+		background:#efefef;
+		border:1px solid #dedede;
+		padding:10px;
+		font-size:0.9em;
+		color:#111;
+}
+
+#submit {height: 40px}
+
