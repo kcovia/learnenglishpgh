@@ -1620,3 +1620,6 @@ input, textarea {
 
 #submit {height: 40px}
 
+#google_translate_element {
+	margin-left: 2em;
+}
